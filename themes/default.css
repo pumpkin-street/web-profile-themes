@@ -66,6 +66,15 @@ body {
   text-align: center;
 }
 
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto var(--spacing-lg) auto;
+}
+
 /* Name/title */
 .p-name {
   font-size: 2.5rem;
@@ -125,14 +134,14 @@ body {
   height: 0;
 }
 
-#profile-items a {
+a {
   color: var(--link-color);
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
-#profile-items a:hover {
+a:hover {
   color: var(--link-hover-color);
   text-decoration: underline;
 }
@@ -159,7 +168,7 @@ body {
   .p-note {
     font-size: var(--font-size-base);
   }
-  
+
   #profile-items ul {
     gap: var(--spacing-xs);
   }
