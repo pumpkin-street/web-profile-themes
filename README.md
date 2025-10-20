@@ -18,3 +18,4 @@ New footers are not accepted as often as themes, but both are avaliable here.
 1. Copy a theme CSS file from `themes/`
 2. Optionally add a footer from `footers/`
 3. Reference the classes and elements from `default.css` in your HTML
+4. Register the theme or footer in the respective `all.ts`
