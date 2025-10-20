@@ -16,7 +16,7 @@ export const themes: Theme[] = [
     id: 'default',
     name: 'Default',
     description: 'The classic Pumpkin Street theme with orange accents and dark background',
-    cssUrl: 'https://raw.githubusercontent.com/pumpkin-street/web-profile-themes/main/themes/default.css',
+    cssUrl: 'https://cdn.jsdelivr.net/gh/pumpkin-street/web-profile-themes@main/themes/default.css',
     author: 'Pumpkin Street',
     version: '1.0.0'
   }

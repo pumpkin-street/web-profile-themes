@@ -16,8 +16,8 @@ export const footers: Footer[] = [
     id: 'default',
     name: 'Default',
     description: 'The standard Pumpkin Street footer with branding',
-    cssUrl: 'https://raw.githubusercontent.com/pumpkin-street/web-profile-themes/main/footers/default.css',
-    htmlUrl: 'https://raw.githubusercontent.com/pumpkin-street/web-profile-themes/main/footers/default.html',
+    cssUrl: 'https://cdn.jsdelivr.net/gh/pumpkin-street/web-profile-themes@main/footers/default.css',
+    htmlUrl: 'https://cdn.jsdelivr.net/gh/pumpkin-street/web-profile-themes@main/footers/default.html',
     author: 'Pumpkin Street',
     version: '1.0.0'
   },
